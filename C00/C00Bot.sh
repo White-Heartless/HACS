@@ -1,33 +1,5 @@
 #!/bin/bash
-echo "          %%%%%%%%%%%%%           %%%%%%%%%%%          "
-echo "      %%%%%           %%%%    %%%%          %%%%%      "
-echo "     %%%%%               %%%%%%%              %%%%%    "
-echo "    %%% %%%%%%%%%          %%%             %%%%% %%%   "
-echo "    %%     %%%%%%           %           %%%%%     %%%  "
-echo "    %%        %%%%%%%               %%%%%%         %%  "
-echo "    %%           %%%%%%%        %%%%%%%%          %%%  "
-echo "     %%             %%%%%%%   %%%%%%             %%%   "
-echo "      %%                %%%%%%%%%               %%     "
-echo "       %%%             %%%%%%%%%%             %%%      "
-echo "         %%%        %%%%%%    %%%%%%        %%%        "
-echo "           %%%   %%%%%%         %%%%%%%   %%%          "
-echo "             %%%%%%%                 %%%%%%            "
-echo " Heartless      %%%                  %%%               "
-echo " Automated        %%%              %%%                 "
-echo " Correction         %%%          %%%                   "
-echo " Script V1.0          %%        %%                     "
-echo "                       %%      %%                      "
-echo " Made by:              %%      %%                      "
-echo " Fabio Facilla         %%       %%                     "
-echo "                   %%%%%         %%%%%                 "
-echo "             %%%%%%%                %%%%%%%%           "
-echo "                %%%%%%%%%      %%%%%%%%%%              "
-echo "                       %%%    %%%                      "
-echo " Please report any bug  %%%  %%%                       "
-echo " you find on Slack        %%%%%                        "
-echo "                            %                          "
-echo " "
-git clone $2 eva
+git clone $1 eva
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 ls ./eva/ex**/*

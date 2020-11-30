@@ -1,4 +1,5 @@
 #!/bin/bash
+printf '\e[8;42;113t'
 echo "          %%%%%%%%%%%%%           %%%%%%%%%%%          "
 echo "      %%%%%           %%%%    %%%%          %%%%%      "
 echo "     %%%%%               %%%%%%%              %%%%%    "
@@ -30,3 +31,5 @@ echo " HACS will now try to update itself..."
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 git pull https://github.com/White-Heartless/HACS
+cd $1
+./C00Bot.sh $2
