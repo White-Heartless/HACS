@@ -27,23 +27,24 @@ echo " Please report any bug  %%%  %%%                       "
 echo " you find on Slack        %%%%%                        "
 echo "                            %                          "
 echo " "
+git clone $2 eva
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
-ls ex**/*
+ls ./eva/ex**/*
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
-norminette ./ex*/ -R CheckForbiddenSourceHeader
+norminette ./eva/ex*/ -R CheckForbiddenSourceHeader
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
-cp ./ex00/* ./Test/ex00/
-cp ./ex01/* ./Test/ex01/
-cp ./ex02/* ./Test/ex02/
-cp ./ex03/* ./Test/ex03/
-cp ./ex04/* ./Test/ex04/
-cp ./ex05/* ./Test/ex05/
-cp ./ex06/* ./Test/ex06/
-cp ./ex07/* ./Test/ex07/
-cp ./ex08/* ./Test/ex08/
+cp ./eva/ex00/* ./Test/ex00/
+cp ./eva/ex01/* ./Test/ex01/
+cp ./eva/ex02/* ./Test/ex02/
+cp ./eva/ex03/* ./Test/ex03/
+cp ./eva/ex04/* ./Test/ex04/
+cp ./eva/ex05/* ./Test/ex05/
+cp ./eva/ex06/* ./Test/ex06/
+cp ./eva/ex07/* ./Test/ex07/
+cp ./eva/ex08/* ./Test/ex08/
 cd Test
 gcc -Wall -Wextra -Werror ./ex00/ex??Tester.c ./ex00/ft* -o ./ex00/a.out
 read -p "00 Compiled, Press any key to continue or CTRL + C to stop
@@ -75,35 +76,46 @@ read -p "08 Compiled, Press any key to continue or CTRL + C to stop
 ./ex00/a.out
 read -p "00, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex01/a.out
 read -p "
 01, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex02/a.out
 read -p "
 02, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex03/a.out
 read -p "
 03, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex04/a.out
 read -p "
 04, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex05/a.out
 read -p "
 05, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex06/a.out
 read -p "
 06, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex07/a.out
 read -p "
 07, Press any key to continue or CTRL + C to stop
 " -n1 -s
+clear
 ./ex08/a.out
 read -p "
 The test is over, Thanks for using HACS!
 " -n1 -s
+rm ./ex*/f*
+rm ./ex*/a.*
+clear
