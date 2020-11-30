@@ -1,5 +1,6 @@
 #!/bin/bash
 printf '\e[8;42;113t'
+clear
 echo "          %%%%%%%%%%%%%           %%%%%%%%%%%          "
 echo "      %%%%%           %%%%    %%%%          %%%%%      "
 echo "     %%%%%               %%%%%%%              %%%%%    "
@@ -32,4 +33,4 @@ read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 git pull https://github.com/White-Heartless/HACS
 cd $1
-./C00Bot.sh $2
+./C0?Bot.sh $2
