@@ -124,5 +124,5 @@ The test is over, Thanks for using HACS!
 rm ./ex*/f*
 rm ./ex*/a.*
 cd ..
-rm -R ./eva
+rm -Rf ./eva
 clear
