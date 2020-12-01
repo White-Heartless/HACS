@@ -13,7 +13,7 @@ int main()
     printf("----Actual---output---\n");
     strncpy(str, "azAZ", 20);
     printf("%d-",ft_str_is_lowercase(p));
-    strncpy(str,"azAZà",20);
+    strncpy(str,"azAZ;",20);
     printf("%d-",ft_str_is_lowercase(p));
     strncpy(str,":az\n",20);
     printf("%d-",ft_str_is_lowercase(p));

@@ -13,11 +13,11 @@ int main()
     printf("----Actual---output---\n");
     strncpy(str, "azAZ\n", 20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"azAZà",20);
+    strncpy(str,"azAZ;",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,":AZ°",20);
+    strncpy(str,":AZ'",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"AZCasdIAOé",20);
+    strncpy(str,"AZCasdIAO[",20);
     printf("%d-",ft_str_is_printable(p));
     strncpy(str,"AzTest!?*~",20);
     printf("%d-",ft_str_is_printable(p));
