@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char *ft_strlowercase(char *str);
+char *ft_strlowcase(char *str);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     printf("it's dangerous to go alone, take this @xxxx[{::::::::::>\n");
     printf("----Actual---output---\n");
     strncpy(str, "It's DanGeRous tO go ALOne, tAKe thiS @xXXx[{::::::::::>\n", 60);
-    p = ft_strlowercase(p);
+    p = ft_strlowcase(p);
     while(1)
     {
         if(*p == 0)
