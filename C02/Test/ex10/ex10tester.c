@@ -14,7 +14,7 @@ int main()
     printf("---Expected-output---\n");
     printf("Congratulations, you invented the wheel, again.\n");
     printf("----Actual---output---\n");
-    ft_strlcpy(s1,s2,60);
+    ft_strlcpy(p1,p2,60);
     printf("%s\n", s1);
 
 }

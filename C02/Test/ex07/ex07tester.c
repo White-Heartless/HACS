@@ -12,7 +12,6 @@ int main()
     printf("HACS IS LOVE, HACS IS LIFE!\n");
     printf("----Actual---output---\n");
     strncpy(str, "Hacs Is loVe, HACS is LiFe!\n", 60);
-    int j=0;
     p = ft_strupcase(p);
     while(1)
     {

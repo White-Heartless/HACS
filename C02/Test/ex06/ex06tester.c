@@ -13,13 +13,13 @@ int main()
     printf("----Actual---output---\n");
     strncpy(str, "azAZ\n", 20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"azAZ;",20);
+    strncpy(str,"azAZ\a;\r",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,":AZ'!?*~",20);
+    strncpy(str,":AZ'!?*~\v",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"AZCasdIAO[",20);
+    strncpy(str,"AZCasdIAO[\b",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"AzTest",20);
+    strncpy(str,"AzTest'!?*~",20);
     printf("%d-",ft_str_is_printable(p));
     strncpy(str,"\0",20);
     printf("%d\n",ft_str_is_printable(p));

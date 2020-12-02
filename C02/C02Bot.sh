@@ -2,7 +2,7 @@
 git clone $1 eva
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
-ls ./eva/ex**/*
+ls -a ./eva/ex**/*
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 norminette ./eva/ex*/ -R CheckForbiddenSourceHeader
@@ -62,8 +62,12 @@ gcc -Wall -Wextra -Werror ./ex12/ex??Tester.c ./ex12/ft* -o ./ex12/a.out
 read -p "12 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-./ex01/a.out
+cat ex00/f*
 read -p "ex01, Press any key to continue or CTRL + C to stop
+" -n -s
+clear
+./ex00/a.out
+read -p "ex00, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 cat ex01/f*

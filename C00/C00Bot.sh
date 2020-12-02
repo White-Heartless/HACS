@@ -2,7 +2,7 @@
 git clone $1 eva
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
-ls ./eva/ex**/*
+ls -a ./eva/ex**/*
 read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 norminette ./eva/ex*/ -R CheckForbiddenSourceHeader
