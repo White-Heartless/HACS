@@ -9,17 +9,17 @@ int main()
     char *p = &str[0];
 
     printf("---Expected-output---\n");
-    printf("0-0-0-0-0-1\n");
+    printf("0-0-0-0-1-1\n");
     printf("----Actual---output---\n");
     strncpy(str, "azAZ\n", 20);
     printf("%d-",ft_str_is_printable(p));
     strncpy(str,"azAZ;",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,":AZ'",20);
+    strncpy(str,":AZ'!?*~",20);
     printf("%d-",ft_str_is_printable(p));
     strncpy(str,"AZCasdIAO[",20);
     printf("%d-",ft_str_is_printable(p));
-    strncpy(str,"AzTest!?*~",20);
+    strncpy(str,"AzTest",20);
     printf("%d-",ft_str_is_printable(p));
     strncpy(str,"\0",20);
     printf("%d\n",ft_str_is_printable(p));
