@@ -32,6 +32,7 @@
 1 : cd into the HACS directory from your terminal
 
 2 : type: ./HACS.sh followed by the module you are evaluating, followed by the link of the repository,
+
 Example: ./HACS.sh C02 git@vogsphere.42roma.it:vogsphere/intra-uuid-5ef209f9-4288-4d28-8e43-1e2f95817edf-3394683
 
 Note, once you launch this command, HACS will try to update itself to its latest version from GitHub, undoing any modifications you may have done to the HACS files.

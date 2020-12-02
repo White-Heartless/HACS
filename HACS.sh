@@ -33,4 +33,6 @@ read -p 'Press any key to continue or CTRL + C to stop
 ' -n1 -s
 git pull https://github.com/White-Heartless/HACS
 cd $1
-./C0?Bot.sh $2
+rm -Rf ./C*/Test/*a.*
+rm -Rf ./C*/Test/ft*
+./C??Bot.sh $2
