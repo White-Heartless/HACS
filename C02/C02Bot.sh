@@ -59,7 +59,7 @@ gcc -Wall -Wextra -Werror ./ex11/ex??Tester.c ./ex11/ft* -o ./ex11/a.out
 read -p "11 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
 gcc -Wall -Wextra -Werror ./ex12/ex??Tester.c ./ex12/ft* -o ./ex12/a.out
-read -p "12 Compiled, Press any key to continue or CTRL + C to stop
+read -p "12 NOT A MISTAKE, WORK IN PROGRESS, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 cat ex00/f*
@@ -170,12 +170,12 @@ ex11, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 cat ex12/f*
-read -p "ex12, Press any key to continue or CTRL + C to stop
+read -p "ex12, NOT A MISTAKE, WORK IN PROGRESS,Press any key to continue or CTRL + C to stop
 " -n -s
 clear
 ./ex12/a.out
 read -p "
-ex12, Press any key to continue or CTRL + C to stop
+ex12, NOT A MISTAKE, WORK IN PROGRESS,Press any key to continue or CTRL + C to stop
 " -n1 -s
 read -p "
 The test is over, Thanks for using HACS!
