@@ -62,7 +62,7 @@ gcc -Wall -Wextra -Werror ./ex12/ex??tester.c ./ex12/ft* -o ./ex12/a.out
 read -p "12 NOT A MISTAKE, WORK IN PROGRESS, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex00/f*
+cat ./ex00/f*
 read -p "ex01, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -70,7 +70,7 @@ clear
 read -p "ex00, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex01/f*
+cat ./ex01/f*
 read -p "ex01, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -79,7 +79,7 @@ read -p "
 ex01, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex02/f*
+cat ./ex02/f*
 read -p "ex02, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -88,7 +88,7 @@ read -p "
 ex02, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex03/f*
+cat ./ex03/f*
 read -p "ex03, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -97,7 +97,7 @@ read -p "
 ex03, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex04/f*
+cat ./ex04/f*
 read -p "ex04, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -106,7 +106,7 @@ read -p "
 ex04, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex05/f*
+cat ./ex05/f*
 read -p "ex05, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -115,7 +115,7 @@ read -p "
 ex05, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex06/f*
+cat ./ex06/f*
 read -p "ex06, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -124,7 +124,7 @@ read -p "
 ex06, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex07/f*
+cat ./ex07/f*
 read -p "ex07, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -133,7 +133,7 @@ read -p "
 ex07, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex08/f*
+cat ./ex08/f*
 read -p "ex08, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -142,7 +142,7 @@ read -p "
 ex08, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex09/f*
+cat ./ex09/f*
 read -p "ex09, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -151,7 +151,7 @@ read -p "
 ex09, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex10/f*
+cat ./ex10/f*
 read -p "ex10, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -160,7 +160,7 @@ read -p "
 ex10, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex11/f*
+cat ./ex11/f*
 read -p "ex11, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
@@ -169,7 +169,7 @@ read -p "
 ex11, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex12/f*
+cat ./ex12/f*
 read -p "ex12, NOT A MISTAKE, WORK IN PROGRESS,Press any key to continue or CTRL + C to stop
 " -n -s
 clear

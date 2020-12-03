@@ -45,76 +45,111 @@ read -p "07 Compiled, Press any key to continue or CTRL + C to stop
 gcc -Wall -Wextra -Werror ./ex08/ex??Tester.c ./ex08/ft* -o ./ex08/a.out
 read -p "08 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-./ex01/a.out
+cat ./ex00/f*
+
+read -p "ex00, Press any key to continue or CTRL + C to stop
+" -n -s
+
+clear
+./ex00/a.out
+
 read -p "
-ex01, Press any key to continue or CTRL + C to stop
+ex00, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex01/f*
+cat ./ex01/f*
+
 read -p "ex01, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex01/a.out
+
 read -p "
 ex01, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex02/f*
+cat ./ex02/f*
+
 read -p "ex02, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex02/a.out
+
 read -p "
 ex02, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex03/f*
+cat ./ex03/f*
+
 read -p "ex03, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex03/a.out
+
 read -p "
 ex03, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex04/f*
+cat ./ex04/f*
+
 read -p "ex04, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex04/a.out
+
 read -p "
 ex04, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex05/f*
+cat ./ex05/f*
+
 read -p "ex05, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex05/a.out
+
 read -p "
 ex05, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex06/f*
+cat ./ex06/f*
+
 read -p "ex06 Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex06/a.out
+
 read -p "
 ex06, Press any key to continue or CTRL + C to stop
 " -n1 -s
+
 clear
-cat ex07/f*
+cat ./ex07/f*
+
 read -p "ex07, Press any key to continue or CTRL + C to stop
 " -n -s
+
 clear
 ./ex07/a.out
 read -p "
 ex07, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ex08/f*
+cat ./ex08/f*
 read -p "ex08, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
