@@ -47,7 +47,8 @@ read -p "08 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 ./ex01/a.out
-read -p "ex01, Press any key to continue or CTRL + C to stop
+read -p "
+ex01, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 cat ex01/f*
