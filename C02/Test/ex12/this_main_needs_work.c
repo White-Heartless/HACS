@@ -14,7 +14,7 @@ int ft_strlen(char *s)
 
 int main()
 {
-	char str[] = "According to all1known\1laws of aviation, there2is\2no way a bee should\6be3able to fly.\tIts wings4are\ftoo small to get its fat\nlittle body\roff the9ground.\bThe bee,\aof course,0flies\vanyway,\vbecause bees don't care\rwhat humans think is\aimpossible";
+	char str[] = "Aáccording to all1known\1laws of aviation, there2is\2no way a bee should\6be3able to fly.\tIts wings4are\ftoo small to get its fat\nlittle body\roff the9ground.\bThe bee,\aof course,0flies\vanyway,\vbecause bees don't care\rwhat humans think is\aimpossible";
 	
 	printf("-----EXPECTED-OUTPUT-----\n");
 	printf("00007ffee50de940: 4163 636f 7264 696e 6720 746f 2061 6c6c According to all\n");
