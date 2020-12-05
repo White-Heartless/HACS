@@ -42,7 +42,7 @@ while [ $FT_I -le 9 ]
 do
 cat ./ex0$FT_I/f*
 read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 clear
 ./ex0$FT_I/a.out
 read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
@@ -55,7 +55,7 @@ do
 cat ./ex$FT_I/f*
 read -p "
 ex$FT_I, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 clear
 ./ex$FT_I/a.out
 read -p "
