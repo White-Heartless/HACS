@@ -22,161 +22,48 @@ cp ./eva/ex10/* ./Test/ex10/
 cp ./eva/ex11/* ./Test/ex11/
 cp ./eva/ex12/* ./Test/ex12/
 cd Test
-gcc -Wall -Wextra -Werror ./ex00/ex???ester.c ./ex00/ft* -o ./ex00/a.out
-read -p "00 Compiled, Press any key to continue or CTRL + C to stop
+FT_I=0
+while [ $FT_I -le 9 ]
+do
+gcc -Wall -Wextra -Werror ./ex0$FT_I/ex* ./ex0$FT_I/ft* -o ./ex0$FT_I/a.out
+read -p "0$FT_I Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex01/ex???ester.c ./ex01/ft* -o ./ex01/a.out
-read -p "01 Compiled, Press any key to continue or CTRL + C to stop
+FT_I=$(( $FT_I + 1 ))
+done
+while [ $FT_I -le 12 ]
+do
+gcc -Wall -Wextra -Werror ./ex$FT_I/ex* ./ex$FT_I/ft* -o ./ex$FT_I/a.out
+read -p "$FT_I Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex02/ex???ester.c ./ex02/ft* -o ./ex02/a.out
-read -p "02 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex03/ex???ester.c ./ex03/ft* -o ./ex03/a.out
-read -p "03 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex04/ex???ester.c ./ex04/ft* -o ./ex04/a.out
-read -p "04 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex05/ex???ester.c ./ex05/ft* -o ./ex05/a.out
-read -p "05 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex06/ex???ester.c ./ex06/ft* -o ./ex06/a.out
-read -p "06 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex07/ex???ester.c ./ex07/ft* -o ./ex07/a.out
-read -p "07 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex08/ex???ester.c ./ex08/ft* -o ./ex08/a.out
-read -p "08 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex09/ex???ester.c ./ex09/ft* -o ./ex09/a.out
-read -p "09 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex10/ex???ester.c ./ex10/ft* -o ./ex10/a.out
-read -p "10 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex11/ex???ester.c ./ex11/ft* -o ./ex11/a.out
-read -p "11 Compiled, Press any key to continue or CTRL + C to stop
-" -n1 -s
-gcc -Wall -Wextra -Werror ./ex12/ex???ester.c ./ex12/ft* -o ./ex12/a.out
-read -p "12 NOT A MISTAKE, WORK IN PROGRESS, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex00/f*
-read -p "ex01, Press any key to continue or CTRL + C to stop
+FT_I=$(( $FT_I + 1 ))
+done
+FT_I=0
+while [ $FT_I -le 9 ]
+do
+cat ./ex0$FT_I/f*
+read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
-./ex00/a.out
-read -p "ex00, Press any key to continue or CTRL + C to stop
+./ex0$FT_I/a.out
+read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ./ex01/f*
-read -p "ex01, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex01/a.out
+FT_I=$(( $FT_I + 1 ))
+done
+while [ $FT_I -le 12 ]
+do
+cat ./ex$FT_I/f*
 read -p "
-ex01, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex02/f*
-read -p "ex02, Press any key to continue or CTRL + C to stop
+ex$FT_I, Press any key to continue or CTRL + C to stop
 " -n -s
 clear
-./ex02/a.out
+./ex$FT_I/a.out
 read -p "
-ex02, Press any key to continue or CTRL + C to stop
+ex$FT_I, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
-cat ./ex03/f*
-read -p "ex03, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex03/a.out
-read -p "
-ex03, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex04/f*
-read -p "ex04, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex04/a.out
-read -p "
-ex04, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex05/f*
-read -p "ex05, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex05/a.out
-read -p "
-ex05, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex06/f*
-read -p "ex06, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex06/a.out
-read -p "
-ex06, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex07/f*
-read -p "ex07, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex07/a.out
-read -p "
-ex07, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex08/f*
-read -p "ex08, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex08/a.out
-read -p "
-ex08, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex09/f*
-read -p "ex09, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex09/a.out
-read -p "
-ex09, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex10/f*
-read -p "ex10, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex10/a.out
-read -p "
-ex10, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex11/f*
-read -p "ex11, Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex11/a.out
-read -p "
-ex11, Press any key to continue or CTRL + C to stop
-" -n1 -s
-clear
-cat ./ex12/f*
-read -p "ex12, NOT A MISTAKE, WORK IN PROGRESS,Press any key to continue or CTRL + C to stop
-" -n -s
-clear
-./ex12/a.out
-read -p "
-ex12, NOT A MISTAKE, WORK IN PROGRESS,Press any key to continue or CTRL + C to stop
-" -n1 -s
+FT_I=$(( $FT_I + 1 ))
+done
 read -p "
 The test is over, Thanks for using HACS!
 " -n1 -s
