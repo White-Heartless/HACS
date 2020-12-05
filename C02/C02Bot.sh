@@ -22,43 +22,43 @@ cp ./eva/ex10/* ./Test/ex10/
 cp ./eva/ex11/* ./Test/ex11/
 cp ./eva/ex12/* ./Test/ex12/
 cd Test
-gcc -Wall -Wextra -Werror ./ex00/ex??tester.c ./ex00/ft* -o ./ex00/a.out
+gcc -Wall -Wextra -Werror ./ex00/ex???ester.c ./ex00/ft* -o ./ex00/a.out
 read -p "00 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex01/ex??tester.c ./ex01/ft* -o ./ex01/a.out
+gcc -Wall -Wextra -Werror ./ex01/ex???ester.c ./ex01/ft* -o ./ex01/a.out
 read -p "01 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex02/ex??tester.c ./ex02/ft* -o ./ex02/a.out
+gcc -Wall -Wextra -Werror ./ex02/ex???ester.c ./ex02/ft* -o ./ex02/a.out
 read -p "02 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex03/ex??tester.c ./ex03/ft* -o ./ex03/a.out
+gcc -Wall -Wextra -Werror ./ex03/ex???ester.c ./ex03/ft* -o ./ex03/a.out
 read -p "03 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex04/ex??tester.c ./ex04/ft* -o ./ex04/a.out
+gcc -Wall -Wextra -Werror ./ex04/ex???ester.c ./ex04/ft* -o ./ex04/a.out
 read -p "04 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex05/ex??tester.c ./ex05/ft* -o ./ex05/a.out
+gcc -Wall -Wextra -Werror ./ex05/ex???ester.c ./ex05/ft* -o ./ex05/a.out
 read -p "05 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex06/ex??tester.c ./ex06/ft* -o ./ex06/a.out
+gcc -Wall -Wextra -Werror ./ex06/ex???ester.c ./ex06/ft* -o ./ex06/a.out
 read -p "06 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex07/ex??tester.c ./ex07/ft* -o ./ex07/a.out
+gcc -Wall -Wextra -Werror ./ex07/ex???ester.c ./ex07/ft* -o ./ex07/a.out
 read -p "07 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex08/ex??tester.c ./ex08/ft* -o ./ex08/a.out
+gcc -Wall -Wextra -Werror ./ex08/ex???ester.c ./ex08/ft* -o ./ex08/a.out
 read -p "08 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex09/ex??tester.c ./ex09/ft* -o ./ex09/a.out
+gcc -Wall -Wextra -Werror ./ex09/ex???ester.c ./ex09/ft* -o ./ex09/a.out
 read -p "09 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex10/ex??tester.c ./ex10/ft* -o ./ex10/a.out
+gcc -Wall -Wextra -Werror ./ex10/ex???ester.c ./ex10/ft* -o ./ex10/a.out
 read -p "10 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex11/ex??tester.c ./ex11/ft* -o ./ex11/a.out
+gcc -Wall -Wextra -Werror ./ex11/ex???ester.c ./ex11/ft* -o ./ex11/a.out
 read -p "11 Compiled, Press any key to continue or CTRL + C to stop
 " -n1 -s
-gcc -Wall -Wextra -Werror ./ex12/ex??tester.c ./ex12/ft* -o ./ex12/a.out
+gcc -Wall -Wextra -Werror ./ex12/ex???ester.c ./ex12/ft* -o ./ex12/a.out
 read -p "12 NOT A MISTAKE, WORK IN PROGRESS, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
