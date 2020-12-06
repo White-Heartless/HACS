@@ -50,7 +50,7 @@ clear
 cat ./ex00/f*
 
 read -p "ex00, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex00/a.out
@@ -63,7 +63,7 @@ clear
 cat ./ex01/f*
 
 read -p "ex01, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex01/a.out
@@ -76,7 +76,7 @@ clear
 cat ./ex02/f*
 
 read -p "ex02, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex02/a.out
@@ -89,7 +89,7 @@ clear
 cat ./ex03/f*
 
 read -p "ex03, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex03/a.out
@@ -102,7 +102,7 @@ clear
 cat ./ex04/f*
 
 read -p "ex04, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex04/a.out
@@ -115,7 +115,7 @@ clear
 cat ./ex05/f*
 
 read -p "ex05, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex05/a.out
@@ -128,7 +128,7 @@ clear
 cat ./ex06/f*
 
 read -p "ex06 Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex06/a.out
@@ -141,7 +141,7 @@ clear
 cat ./ex07/f*
 
 read -p "ex07, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 
 clear
 ./ex07/a.out
@@ -151,7 +151,7 @@ ex07, Press any key to continue or CTRL + C to stop
 clear
 cat ./ex08/f*
 read -p "ex08, Press any key to continue or CTRL + C to stop
-" -n -s
+" -n1 -s
 clear
 ./ex08/a.out
 read -p "
