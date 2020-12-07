@@ -24,14 +24,17 @@ read -p "0$FT_I Compiled, Press any key to continue or CTRL + C to stop
 FT_I=$(( $FT_I + 1 ))
 done
 FT_I=0
+clear
 while [ $FT_I -le 5 ]
 do
 cat ./ex0$FT_I/f*
-read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
+read -p "
+ex0$FT_I, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 ./ex0$FT_I/a.out
-read -p "ex0$FT_I, Press any key to continue or CTRL + C to stop
+read -p "
+ex0$FT_I, Press any key to continue or CTRL + C to stop
 " -n1 -s
 clear
 FT_I=$(( $FT_I + 1 ))

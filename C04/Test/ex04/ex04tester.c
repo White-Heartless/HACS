@@ -7,7 +7,7 @@ void ft_putnbr_base(int nbr, char *base);
 int  main(void)
 {
 	printf("---Expected-output---\n");
-	printf("1111011\n-1200201\nqd\nuzFdC\n-cbeheidgei");
+	printf("1111011\n-1200201\nqd\nuzFdC\n-cbeheidgei\n");
 	printf("----Actual---output---\n");
 	ft_putnbr_base(123, "01");
 	printf("\n");
