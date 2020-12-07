@@ -12,7 +12,7 @@ int main(void)
 	printf("%d__",ft_atoi("   ----++--+2147483647asda"));
 	printf("%d__",ft_atoi("++-0"));
 	printf("%d__",ft_atoi("69"));
-	printf("%d\n",ft_atoi("  -+-+-+-+-+--+42aaaaaaaaa"));
+	printf("%d\n",ft_atoi(" \v -+-+-+-+-+--+42aaaaaaaaa"));
 	return 0;
 }
 

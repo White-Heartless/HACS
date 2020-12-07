@@ -12,7 +12,7 @@ int main(void)
 	printf("%d__",ft_atoi_base("   ----++--+7FFFFFFFa","0123456789ABCDEF"));
 	printf("%d__",ft_atoi_base("++-n","nul"));
 	printf("%d__",ft_atoi_base("baf","abcdefgh"));
-	printf("%d_",ft_atoi_base("  -+-+-+-+-+--+ahahah","ha"));
+	printf("%d_",ft_atoi_base(" \v -+-+-+-+-+--+ahahah","ha"));
 	printf("%d_",ft_atoi_base(" +-+-++---+--+xd","asdfghj+qwert"));
 	printf("%d_",ft_atoi_base(" -+asdfg","asdfg-hjkl"));
 	printf("%d_",ft_atoi_base(" -+-+++-","asdfg hjkl"));
