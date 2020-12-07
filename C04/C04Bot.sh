@@ -14,13 +14,6 @@ cp ./eva/ex02/* ./Test/ex02/
 cp ./eva/ex03/* ./Test/ex03/
 cp ./eva/ex04/* ./Test/ex04/
 cp ./eva/ex05/* ./Test/ex05/
-cp ./eva/ex06/* ./Test/ex06/
-cp ./eva/ex07/* ./Test/ex07/
-cp ./eva/ex08/* ./Test/ex08/
-cp ./eva/ex09/* ./Test/ex09/
-cp ./eva/ex10/* ./Test/ex10/
-cp ./eva/ex11/* ./Test/ex11/
-cp ./eva/ex12/* ./Test/ex12/
 cd Test
 FT_I=0
 while [ $FT_I -le 5 ]
