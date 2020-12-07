@@ -7,14 +7,16 @@ void ft_putnbr_base(int nbr, char *base);
 int  main(void)
 {
 	printf("---Expected-output---\n");
-	printf("1111011\n1200201\nqd\nuzFdC\n");
+	printf("1111011\n-1200201\nqd\nuzFdC\n-cbeheidgei");
 	printf("----Actual---output---\n");
 	ft_putnbr_base(123, "01");
 	printf("\n");
-	ft_putnbr_base(1234, "012");
+	ft_putnbr_base(-1234, "012");
 	printf("\n");
 	ft_putnbr_base(42, "zudtqcseon");
 	printf("\n");
 	ft_putnbr_base(69420, "zudtqcseonABCDEF");
+	printf("\n");
+	ft_putnbr_base(-2147483648, "abcdefghij");
 	printf("\n");
 }
