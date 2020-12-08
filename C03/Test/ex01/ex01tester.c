@@ -8,9 +8,10 @@ int main(void)
 	char str3[] = "I like trbins";
 
 	printf("---Expected-Result---\n");
-	printf("-1_0_0_0_0_1\n");
+	printf("-1_0_0_0_0_0_1\n");
 	printf("----Actual--Result---\n"); 
 	printf("%d_",ft_strncmp(str1,str2,13));
+	printf("%d_",ft_strncmp(str1,str2,0));
 	printf("%d_",ft_strncmp(str1,str2,3));
 	printf("%d_",ft_strncmp(str2,str3,5));
 	printf("%d_",ft_strncmp(str2,str3,20));
