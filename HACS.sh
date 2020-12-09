@@ -17,7 +17,7 @@ echo "             %%%%%%%                 %%%%%%            "
 echo " Heartless      %%%                  %%%               "
 echo " Automated        %%%              %%%                 "
 echo " Correction         %%%          %%%                   "
-echo " Script V1.4          %%        %%                     "
+echo " Script V1.5          %%        %%                     "
 echo "                       %%      %%                      "
 echo " Made by:              %%      %%                      "
 echo " Fabio Facilla         %%       %%                     "
@@ -35,4 +35,6 @@ git pull https://github.com/White-Heartless/HACS
 cd $1
 rm -Rf ./C*/Test/*a.*
 rm -Rf ./C*/Test/ft*
+rm -Rf ./C*/eva/*
+rm -Rf ./C*/eva/.*
 ./C??Bot.sh $2
