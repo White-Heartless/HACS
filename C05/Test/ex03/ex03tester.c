@@ -10,6 +10,7 @@ int main()
 	printf("----Actual---output---\n");
 	printf("%d__",ft_recursive_power(5, -3));
 	printf("%d__",ft_recursive_power(0, 0));
+	printf("%d__",ft_recursive_power(5, 0));
 	printf("%d__",ft_recursive_power(3, 2));
 	printf("%d__",ft_recursive_power(5, 4));
 	printf("%d\n",ft_recursive_power(42, 3));
